@@ -3,6 +3,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "initialCols" : 80,
+    "initialRows" : 25, 
     "profiles": {
         "defaults": {
             // Put settings here that you want to apply to all profiles
@@ -27,10 +29,10 @@
                 //		"colorScheme" : "Solarized Dark",
                 //		"colorScheme" : "Campbell",
                 //		"colorScheme" : "Vintage",
-                //		"fontFace": "SourceCodePro NF",
+                		"fontFace": "SourceCodePro NF",
                 //		"fontFace": "Hack",
-                "fontFace": "Cascadia Code",
-                "fontSize": 14,
+                //		"fontFace": "Cascadia Code",
+                "fontSize": 12,
                 //	        "cursorColor" : "#00FF00",
                 "cursorHeight": 25,
                 "cursorShape": "vintage",
