@@ -1,6 +1,6 @@
 # windows-terminal-profile
 
-Copy this file to: C:\Users\serafeim\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+Copy this file to: `C:\Users\serafeim\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState`
 
 
 To auto-start a layout add the following shortcut to startup (windows+r `shell:startup`):
