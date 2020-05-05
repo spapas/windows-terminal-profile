@@ -6,6 +6,7 @@
     "profiles": {
         "defaults": {
             // Put settings here that you want to apply to all profiles
+
         },
         "list": [
             {
@@ -19,6 +20,7 @@
                 // Make changes here to the cmd.exe profile
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "cmd",
+
                 "commandline": "cmd.exe",
                 //              "padding": "0, 0, 0, 0",
                 //		"colorScheme" : "One Half Dark",
