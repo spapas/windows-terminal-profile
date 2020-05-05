@@ -8,7 +8,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-
+    "initialCols" : 80,
+    "initialRows" : 25, 
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
 
@@ -27,6 +28,8 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+            "cursorHeight": 25,
+            "cursorShape": "vintage"
         },
         "list": [
             {
@@ -39,8 +42,8 @@
             {
                 // Make changes here to the cmd.exe profile
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "cmd",
-		"colorScheme": "Tango Light",
+                "name": "cmd ⌨",
+		        "colorScheme": "Tango Light",
                 "commandline": "cmd.exe",
                 //              "padding": "0, 0, 0, 0",
                 //		"colorScheme" : "One Half Dark",
@@ -60,6 +63,15 @@
                 "acrylicOpacity": 0.95,
                 "useAcrylic": true,
                 "hidden": false
+            },
+            {
+                "name": "ssh 172.19.130.142 💻",
+                "commandline": "ssh serafeim@172.19.130.142",
+                "hidden": false,
+                "fontFace": "Cascadia Code",
+                "colorScheme" : "VibrantInk"
+                //"acrylicOpacity": 0.85,
+                //"useAcrylic": true
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -141,7 +153,73 @@
             "red": "#D78787",
             "white": "#DCDCCC",
             "yellow": "#DFAF8F"
-        }
+        },
+        {
+            // Color Scheme: VibrantInk
+            "background" : "#000000",
+            "black" : "#878787",
+            "blue" : "#44B4CC",
+            "brightBlack" : "#555555",
+            "brightBlue" : "#0000FF",
+            "brightCyan" : "#00FFFF",
+            "brightGreen" : "#00FF00",
+            "brightPurple" : "#FF00FF",
+            "brightRed" : "#FF0000",
+            "brightWhite" : "#E5E5E5",
+            "brightYellow" : "#FFFF00",
+            "cyan" : "#44B4CC",
+            "foreground" : "#FFFFFF",
+            "green" : "#CCFF04",
+            "name" : "VibrantInk",
+            "purple" : "#9933CC",
+            "red" : "#FF6600",
+            "white" : "#F5F5F5",
+            "yellow" : "#FFCC00"
+        },
+        {
+            // Color Scheme: Ubuntu
+            "background":  "#2C001E",
+            "black":  "#EEEEEC",
+            "blue":  "#268BD2",
+            "brightBlack":  "#002B36",
+            "brightBlue":  "#839496",
+            "brightCyan":  "#93A1A1",
+            "brightGreen":  "#586E75",
+            "brightPurple":  "#6C71C4",
+            "brightRed":  "#CB4B16",
+            "brightWhite":  "#FDF6E3",
+            "brightYellow":  "#657B83",
+            "cyan":  "#2AA198",
+            "foreground":  "#EEEEEC",
+            "green":  "#729FCF",
+            "name":  "Ubuntu",
+            "purple":  "#D33682",
+            "red":  "#16C60C",
+            "white":  "#EEE8D5",
+            "yellow":  "#B58900"
+        }, 
+        {
+            // Color Scheme: UbuntuLegit
+            "background":  "#2C001E",
+            "black":  "#4E9A06",
+            "blue":  "#3465A4",
+            "brightBlack":  "#555753",
+            "brightBlue":  "#729FCF",
+            "brightCyan":  "#34E2E2",
+            "brightGreen":  "#8AE234",
+            "brightPurple":  "#AD7FA8",
+            "brightRed":  "#EF2929",
+            "brightWhite":  "#EEEEEE",
+            "brightYellow":  "#FCE94F",
+            "cyan":  "#06989A",
+            "foreground":  "#EEEEEE",
+            "green":  "#300A24",
+            "name":  "UbuntuLegit",
+            "purple":  "#75507B",
+            "red":  "#CC0000",
+            "white":  "#D3D7CF",
+            "yellow":  "#C4A000"
+        }        
     ],
 
     // Add custom keybindings to this array.
